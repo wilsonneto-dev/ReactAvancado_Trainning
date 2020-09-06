@@ -6,7 +6,8 @@
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "linebreak-style": "windows"
   },
   "extends": [
     "eslint:recommended",
@@ -29,6 +30,7 @@
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
-    "no-unused-vars": "error"
+    "no-unused-vars": "error",
+    "linebreak-style": [ "error", "windows" ]
   }
 }

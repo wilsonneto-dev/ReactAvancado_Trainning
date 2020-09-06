@@ -2,8 +2,8 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
-  const a = 'testng';
-  const b = 'testng';
+  // const abc = 'testng';
+  // const b = 'testngaaa';
 
   return (
     <div className={styles.container}>
