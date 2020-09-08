@@ -7,17 +7,9 @@ describe('<Main />', () => {
     const { container } = render(<Main />);
 
     expect(
-      screen.getByRole('heading', { name: /react avançado/i })
+      screen.getByRole('heading', { name: /nextjs boilerplate/i })
     ).toBeInTheDocument();
 
-    expect(container.firstChild).toMatchInlineSnapshot(`
-      <div>
-        <main>
-          <h1>
-            React Avançado
-          </h1>
-        </main>
-      </div>
-    `);
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
