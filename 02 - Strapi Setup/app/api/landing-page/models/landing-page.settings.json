@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "LandingPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.header"
+    },
+    "SectionAbout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about"
+    }
+  }
+}
