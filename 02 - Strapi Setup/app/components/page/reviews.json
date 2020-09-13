@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_reviews",
+  "info": {
+    "name": "reviews",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "review": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

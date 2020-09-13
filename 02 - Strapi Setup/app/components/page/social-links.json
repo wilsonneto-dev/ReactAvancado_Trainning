@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "name": "socialLinks",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "enumeration",
+      "enum": [
+        "Github",
+        "Twitter",
+        "Dribble",
+        "Facebook",
+        "Linkedin",
+        "Instagram"
+      ],
+      "default": "Twitter"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
