@@ -1,0 +1,2 @@
+iniciar o postgres:
+docker-compose -f docker-compose-pg.yml up
