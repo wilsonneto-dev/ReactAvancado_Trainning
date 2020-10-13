@@ -8,6 +8,7 @@ import Document, {
 } from 'next/document'
 import Analytics from 'components/Analytics'
 import { ServerStyleSheet } from 'styled-components'
+
 export default class NextDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const sheet = new ServerStyleSheet()
@@ -55,4 +56,3 @@ export default class NextDocument extends Document {
     )
   }
 }
-
