@@ -17,7 +17,7 @@ services:
       - postgres
 
   postgres:
-    image: postgres
+    image: postgres:12.4
     environment:
       POSTGRES_DB: strapi
       POSTGRES_USER: strapi
